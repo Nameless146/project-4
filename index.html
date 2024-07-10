@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en" class="dark" id="htmlTag">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="bg-white dark:bg-gray-900">
+  <!--navbar section-->
+  <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between flex justify-between border-s-8  border-l-[#F44335] ">
+    <div class="flex justify-between items-center ">
+      <span class="text-2xl font-[Poppins] cursor-pointer">
+        <img class="h-10 inline md:w-40 w-52"
+          src="assets/c4u full logo_2022 1.png">
+      </span>
+    </div>
+    
+<div>
+    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 md:text-center bg-white ">
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl  duration-500 hover:text-gray-400">Home</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl hover:text-gray-400 duration-500">About Us</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl hover:text-gray-400 text-[#F44335] duration-500">Upskill</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl  hover:text-gray-400 duration-500">Contact us </a>
+      </li>
+      
+    </ul>
+
+  </div>
+
+  <div class="md-flex flex ml-24 md:justify-between">
+      
+    <button class="bg-[#F44335] mr-5
+    text-white duration-500 md:px-7 md:py-2   hover:bg-[#f45e35] rounded 
+  transition-all  cursor-pointer hover:scale-x-110 text-sm text-nowrap px-3">
+    Register Interest
+   </button>
+
+  
+  <span class="text-3xl cursor-pointer mx-2 md:hidden block mt-1 mr-7">
+    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+  </span> 
+
+  </div>
+
+
+    </div>
+  
+  </nav>
+
+
+  <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+
+<!--navbar section end -->
+
+
+<!--first part start-->
+<div>
+
+
+<div class=" md:text-center space-y-6 absolute mt-5 md:mt-36 ml-44 md:ml-96 ">
+  <h4 class="font-semibold md:text-xl text-white text-xs ml-3 ">Discover <span class="text-[#F44335] font-extrabold"> - </span> Interact <span class="text-[#F44335] font-extrabold"> -  </span> Engage </h4>
+
+ <h1 class="md:text-4xl text-sm tracking-wider text-white font-semibold indent-3 ">Connecting <span  class="text-[#F44335] border-b-2 border-b-[#F44335] font-semibold"> talent</span>  to <br>
+  opportunity through <span class="text-[#F44335] border-b-2 border-b-[#F44335] font-semibold">skills</span></h1>
+ 
+ <p class="text-white md:text-base text-xs ">We forster a skill-focussed environment enabling students to navigate their career with <br> their self-paced learning journey and businesses to gain market-ready talent. </p>
+
+
+ <button class="bg-white 
+ text-[#F44335] font-bold duration-500 md:px-7 md:py-3 hover:bg-[#dd9b4488] rounded-full 
+transition-all  cursor-pointer hover:scale-x-110 md:text-sm text-xs px-2  md:ml-3 ml-12 py-1 ">
+Ask questions
+</button>
+</div>
+
+
+<div class="relative -z-50 border-s-8 border-[#F44335]  ">
+  <img  class=" w-full " src="assets/edwin-andrade-4V1dC_eoCwg-unsplash 1.png" alt="">
+</div>
+<div class="relative md:bottom-40 bottom-9 ">
+  <svg md:width="100%" md:height="100"   viewBox="0 0 2184 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M2184 262.5H0V0C364 80 728 120 1092 120C1456 120 1820 80 2184 0V262.5Z" fill="#FAFAFA"/>
+    </svg>
+    
+</div>
+
+</div>
+
+<!--first part end-->
+
+<!--second part start-->
+
+<div class="grid grid-cols-12 bottom-96">
+  <div class="grid md:col-span-3 col-span-12  p-24  md:p-px">
+    <h1 class="text-3xl font-semibold tracking-wider line-clamp-4 ml-12 md:ml-12 md:mt-20 mt-20">At <span class="text-[#F44335] border-b-2 border-b-[#F44335]">C4U</span>,<br>
+      We Empower: </h1>
+
+  </div>
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px ">
+
+   <div class="grid bg-[#2D3142] h-72 w-72 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+    <img class="bg-white rounded-full mt-10 md:mt-10 md:ml-5 ml-5 w-9" src="assets/37 (1).png" alt="">
+    <h3 class="text-white ml-5 md:ml-5 font-bold text-lg">Students </h3>
+    <p class="text-white ml-5 md:ml-5 ">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+    </p>
+   </div>
+
+  </div>
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px">
+
+    <div class="grid bg-[#2D3142] h-72 w-72 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class="bg-white rounded-full mt-10 md:mt-10 md:ml-5 ml-5 w-9" src="assets/50.png" alt="">
+      <h3 class="text-white ml-5 md:ml-5 font-bold text-lg">Universities  </h3>
+      <p class="text-white ml-5 md:ml-5 ">We help your emerging talent to unlock their full potential by combining education and work to create future-ready employees
+      </p>
+     </div>
+
+
+
+
+
+
+  </div>
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px">
+
+
+    <div class="grid bg-[#2D3142] h-72 w-72 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class="bg-white rounded-full mt-10 md:mt-10 md:ml-5 ml-5 w-9" src="assets/16.png" alt="">
+      <h3 class="text-white ml-5 md:ml-5 font-bold text-lg"> Businesses</h3>
+      <p class="text-white ml-5 md:ml-5 ">We enable businesses to tap into the diverse pool of emerging talent cultivated by universities. To co-create the future workforce and revitalise the business world.
+
+      </p>
+     </div>
+
+
+  </div>
+</div>
+
+<!--second part end-->
+
+
+<!--third part start-->
+
+
+
+
+  <div class="grid grid-cols-12 md:mt-32 md:ml-40 ">
+
+    <div class=" md:col-span-6 col-span-12 space-y-12 md:space-y-16 mt-20 md:mt-20 ml-10">
+      <h5 class="text-[#F44335] text-2xl">About us</h5>
+      <h1 class="text-5xl font-semibold">Our Mission </h1>
+      <p class="font-semibold">To create a personalised  pathway for continuous <br> learning and transferrable skills development.</p>
+   <button class="flex border-2 border-[#F44335] md:px-4 px-3 md:py-3 py-2 text-[#F44335] rounded-full hover:transition-all hover:scale-95 hover:duration-300 md:ring-offset-rose-200 font-semibold">Find out more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:mt-1.5 md:ml-1 mt-1.5  ml-1">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+    </svg>
+    </button> 
+
+
+    </div>
+
+
+    <div class="md:col-span-6 col-span-12">
+     <img class="mt-28 md:mt-0" src="assets/Group 238902.png" alt="">
+    </div>
+
+
+  </div>
+
+
+<!--third part end-->
+
+
+<!--forth part start-->
+
+<div class="grid grid-cols-12 md:mt-32 md:ml-40 ">
+
+
+  <div class="md:col-span-6 col-span-12">
+    <img class="mt-28 md:mt-0" src="assets/Right.png" alt="">
+   </div>
+ 
+
+  <div class=" md:col-span-6 col-span-12 space-y-12 md:space-y-16 mt-20 md:mt-20 ml-32">
+    <h5 class="text-[#F44335] text-2xl">Our Vision</h5>
+    <h1 class="text-5xl font-semibold">Our Mission </h1>
+    <p class="font-semibold">To have a globally recognised strategic bridge <br> between education and the job market</p>
+ <button class="flex border-2 border-[#F44335] md:px-4 px-3 md:py-3 py-2 text-[#F44335] rounded-full hover:transition-all hover:scale-95 hover:duration-300 md:ring-offset-rose-200 font-semibold">Contact us  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:mt-1.5 md:ml-1 mt-1.5  ml-1">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+  </svg>
+  </button> 
+
+
+  </div>
+
+</div>
+<!--forth part end-->
+
+
+
+<!--sixth part start-->
+
+<div class="grid grid-cols-12  md:mt-52 bg-[#FFFFFF] md:ml-52">
+ 
+  <div class="grid md:col-span-4 col-span-12 p-24  md:p-px space-y-1">
+
+   <div class="grid h-72 w-72 hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+    <img class=" mt-10 md:mt-10 md:ml-5 ml-5 w-16" src="assets/Group 199.png" alt="">
+    <h3 class=" ml-5 md:ml-5 font-bold text-lg">Discover </h3>
+    <p class=" ml-5 md:ml-5 ">We uncover students unique skills to stand out in a crowded job market
+
+
+    </p>
+   </div>
+
+  </div>
+
+
+
+    <div class="grid md:col-span-4 col-span-12 p-24  md:p-px space-y-1">
+
+      <div class="grid h-72 w-72 hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+       <img class=" mt-10 md:mt-10 md:ml-5 ml-5 w-16" src="assets/Group 199 (1).png" alt="">
+       <h3 class=" ml-5 md:ml-5 font-bold text-lg">Interact </h3>
+       <p class=" ml-5 md:ml-5 ">We open doors to new opportunities by expanding your transferrable skills
+   
+       </p>
+      </div>
+  </div>
+
+
+
+
+
+    <div class="grid md:col-span-4 col-span-12 p-24  md:p-px space-y-1 ">
+
+      <div class="grid h-72 w-72 hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+       <img class=" mt-10 md:mt-10 md:ml-5 ml-5 w-16" src="assets/Group 199 (2).png" alt="">
+       <h3 class=" ml-5 md:ml-5 font-bold text-lg">Engage </h3>
+       <p class=" ml-5 md:ml-5 ">To forester a skill focussed environment that enable students to navigate their ideal career
+   
+       </p>
+      </div>
+  </div>
+
+
+</div>
+
+<!--sixth part end-->
+
+
+<!--seventh part start -->
+
+
+<div class="md:ml-32 ml-8 md:mt-36">
+  <h1 class="text-5xl ">The Creative Team <br class="line-clamp-4"> <div class="flex mt-5">behind  <span class="text-[#F44335]">the door</span><img src="assets/Arrow_10.png" alt=""></div> </h1>
+    
+
+
+
+<div class="grid grid-cols-12 bottom-96  ">
+  
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px  md:ml-7">
+
+    <div class="grid bg-white h-72 w-60 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class=" rounded-full mt-10 md:mt-10 md:ml-12 ml-12 " src="assets/image 3.png" alt="">
+      <h1 class=" ml-14 md:ml-14 font-bold text-lg">Ekta Mahajan  </h1>
+      <p class="text-zinc-400 ml-14 md:ml-14 ">Founder & C.E.O
+      </p>
+      <img class="md:ml-16 ml-16" src="assets/Group 26610.png" alt="">
+     </div>
+
+
+  </div>
+
+  <div class="absolute   md:mt-36 -z-30 ">
+    <img class=""  src="assets/Group 47270.png" alt="" srcset="">
+   </div>
+
+
+
+
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px  ">
+
+    <div class="grid bg-white h-72 w-60 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class=" rounded-full mt-10 md:mt-10 md:ml-12 ml-12 " src="assets/image 4.png" alt="">
+      <h1 class=" ml-10 md:ml-10 font-bold text-lg">Toby Potter-Drake  </h1>
+      <p class="text-zinc-400 ml-6 md:ml-6 ">Product Manager Associate
+      </p>
+      <img class="md:ml-16 ml-16" src="assets/Group 26610.png" alt="">
+     </div>
+
+
+  </div>
+
+
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px  ">
+
+    <div class="grid bg-white h-72 w-60 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class=" rounded-full mt-10 md:mt-10 md:ml-12 ml-12 " src="assets/image 2.png" alt="">
+      <h1 class=" ml-16 md:ml-16 font-bold text-lg">Ross Davies </h1>
+      <p class="text-zinc-400 ml-6 md:ml-6 ">Corporate Growth Associate
+      </p>
+      <img class="md:ml-16 ml-16" src="assets/Group 26610.png" alt="">
+     </div>
+
+
+  </div>
+
+
+
+  <div class="grid md:col-span-3 col-span-12 p-24  md:p-px  ">
+
+    <div class="grid bg-white h-72 w-60 rounded-md hover:transition-all hover:scale-105 hover:duration-300 ring-slate-500">
+      <img class=" rounded-full mt-10 md:mt-10 md:ml-12 ml-12 " src="assets/image 1.png" alt="">
+      <h1 class=" ml-16 md:ml-16 font-bold text-lg">Leo crozier   </h1>
+      <p class="text-zinc-400 ml-12 md:ml-12 ">Software Developer
+      </p>
+      <img class="md:ml-16 ml-16" src="assets/Group 26610.png" alt="">
+     </div>
+     <div  class="absolute md:ml-24 -z-30 ">
+      <img class=""  src="assets/Group 47270.png" alt="" srcset="">
+    </div>
+     
+
+
+  </div>
+  
+  
+  
+</div>
+
+  
+</div>
+
+<!--seventh part end-->
+
+
+
+
+<!-- last part start-->
+
+<div class="grid grid-cols-12 md:mt-52 md:ml-24 space-y-16 md:space-y-1">
+  <div class=" md:col-span-2 col-span-6 space-y-6 ml-14  ">
+    <img src="assets/c4u full logo_2022 1.png" alt="">
+    <p >Level39 </p>
+    <p>OneCanadaSquare</p>
+    <p>CanaryWharif</p>
+    <p>London</p>
+    <p>EURURWY</p>
+
+  </div>
+
+  <div class="  md:col-span-2 col-span-6 space-y-4  md:ml-52">
+    <p class="text-lg font-bold">Home</p>
+    <p>Collaborations</p>
+    <p>Statistics</p>
+
+    <p class="text-nowrap">How It Works </p>
+<p>Testimonials </p>
+  </div>
+
+  <div class=" mb-16 md:col-span-2 col-span-6 space-y-4  md:ml-52 ml-16">
+    <p class="text-lg font-bold text-nowrap">About Us</p>
+    <p class="text-nowrap" >Who We Are</p>
+    <p class="text-nowrap" >Mission statement </p>
+    
+     <p class="text-nowrap">Our Vision </p>
+    
+    <p class="text-nowrap" >The  Team </p>
+    
+    
+
+  </div>
+
+
+  <div class=" mb-16 md:col-span-2 col-span-6 space-y-4  md:ml-52">
+    <p class="text-lg font-bold" >Upskill</p>
+    <p class="text-nowrap">It Support </p>
+    <p class="text-nowrap">Project Managment </p>
+    <p class="text-nowrap">Data Analysts</p>
+    <p class="text-nowrap">Ux Design</p>
+
+    
+
+
+  </div>
+
+
+  <div class=" mb-20 md:col-span-3 col-span-12 space-y-4  md:ml-52 ml-44">
+    <p class="text-lg font-bold">Contact Us </p>
+    <p>Your message </p>
+    <p>Email</p>
+    <p>Phone number </p>
+    <p>Linkedin </p>
+
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
